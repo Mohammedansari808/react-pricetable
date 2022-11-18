@@ -2,37 +2,62 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-image: linear-gradient(to left, rgb(91, 184, 214), rgb(0, 102, 255));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.price-category {
+
+  font-weight: bold;
+  font-size: large;
+  color: grey;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rate {
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.small-box {
+  box-shadow: 2px 2px 15px black;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-box:hover {
+  margin-top: 30px;
+
+}
+
+.eligibility {
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.not-eligible {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: lightgrey
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 50px;
+  margin: 25px;
+  border-radius: 20px;
+
+
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 20px black;
 }
